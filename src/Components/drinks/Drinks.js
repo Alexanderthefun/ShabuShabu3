@@ -1,5 +1,4 @@
 import React from "react";
-import Card from './DrinkCard';
 import { useEffect, useState } from "react";
 import { ExpandableMenu } from "../ExpandableItems/ExpandableDrink.js";
 import './Drinks.css'
@@ -41,14 +40,6 @@ export const Drinks = () => {
         fetchDrinks();
     }, []);
 
-
-    const newDrinkList = [];
-    useEffect(() => {
-        for (const drink of drinks) {
-            newDrinkList.push(drink);
-        }
-    }, [drinks])
-
     useEffect(() => {
         const booze = [];
         const notBooze = [];
@@ -75,21 +66,21 @@ export const Drinks = () => {
         const theFruitTeas = [];
         if (nonAlcohol) {
             for (const drink of nonAlcohol) {
-                if (drink.type == 'Soda') {
+                if (drink.type === 'Soda') {
                     theSodas.push(drink);
-                } else if (drink.type == 'Hot Tea') {
+                } else if (drink.type === 'Hot Tea') {
                     theHotTeas.push(drink);
-                } else if (drink.type == 'Japanese Soda') {
+                } else if (drink.type === 'Japanese Soda') {
                     theJapaneseSodas.push(drink);
-                } else if (drink.type == 'Ade') {
+                } else if (drink.type === 'Ade') {
                     theAdes.push(drink);
-                } else if (drink.type == 'Cheese Tea') {
+                } else if (drink.type === 'Cheese Tea') {
                     theCheeseTeas.push(drink);
-                } else if (drink.type == 'Milk Tea') {
+                } else if (drink.type === 'Milk Tea') {
                     theMilkTeas.push(drink);
-                } else if (drink.type == 'Latte') {
+                } else if (drink.type === 'Latte') {
                     theLattes.push(drink);
-                } else if (drink.type == 'Smoothie') {
+                } else if (drink.type === 'Smoothie') {
                     theSmoothies.push(drink);
                 } else {
                     theFruitTeas.push(drink);
@@ -244,14 +235,3 @@ export const Drinks = () => {
     );
 }
 
-// useEffect(() => {
-//     getAllDrinks().then(data => {
-//         console.log(data);
-//         if (data !== null) {
-//             setDrinks(data);
-//             console.log(drinks);
-//         } else {
-//             console.log('Somethings wrong yo.')
-//         }
-//     })
-// }, []);
