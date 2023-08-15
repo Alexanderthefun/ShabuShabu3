@@ -6,7 +6,7 @@ export const database = {
         { id: 6, name: 'Tom Yum', description: 'Thai hot and sour soup with added lemongrass and coconut milk. Medium spice level', canBeVegetarian: true, spicy: true, canBeGlutenFree: false },
         { id: 7, name: 'Tomato', description: 'Simple but delicious broth made with juicy ripened tomatos and chicken broth', canBeVegetarian: true, spicy: false, canBeGlutenFree: false },
         { id: 8, name: 'Curry', description: 'Traditional Japanese yellow curry. Fragrant and flavorful with a mild heat level', canBeVegetarian: true, spicy: true, canBeGlutenFree: false },
-        { id: 9, name: 'Szechuan Spicy', description: 'Tonkotsu base made with Scechuan peppers peppercor… chili oil. Your choice of Mild, Hot or Very Hot.', canBeVegetarian: true, spicy: true, canBeGlutenFree: false }
+        { id: 9, name: 'Szechuan Spicy', description: 'Tonkotsu base made with Schechuan peppers, peppercorn and chili oil. Your choice of Mild, Hot or Very Hot.', canBeVegetarian: true, spicy: true, canBeGlutenFree: false }
     ],
 
     drinks: [

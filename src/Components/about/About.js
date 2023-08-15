@@ -24,7 +24,7 @@ export const About = () => {
                 <li>Parties of 6+ include an 18% gratuity (before tax) on the check at the end of the meal. The option to add an additional tip will be provided.</li>
                 <li>Because of limited space, we cannot seat you until your entire party has arrived.
                 reservations can be made by calling 615-655-8888 .</li>
-                <li>Shabu Shabu is an all-you-can eat style restaurant. To be fair to all patrons, we ask our guests to refrain from exceeding our 2 hour dining limit, which begins when the first guest is sat at the table regardless of wether or not the rest of their party has arrived..</li>
+                <li>Shabu Shabu is an all-you-can eat style restaurant. To be fair to all patrons, we ask our guests to refrain from exceeding our 2 hour dining limit, which begins when the first guest is sat at the table regardless of whether or not the rest of their party has arrived..</li>
             </div>
             <div>
 
