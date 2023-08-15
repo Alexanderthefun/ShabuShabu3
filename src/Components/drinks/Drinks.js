@@ -108,15 +108,15 @@ export const Drinks = () => {
 
         if (alcoholDrinks) {
             for (const drink of alcoholDrinks) {
-                if (drink.type == 'Whiskey') {
+                if (drink.type === 'Whiskey') {
                     theWhiskey.push(drink);
-                } else if (drink.type == 'Soju') {
+                } else if (drink.type === 'Soju') {
                     theSojus.push(drink);
-                } else if (drink.type == 'Cocktail') {
+                } else if (drink.type === 'Cocktail') {
                     theCocktails.push(drink)
-                } else if (drink.type == 'Wine') {
+                } else if (drink.type === 'Wine') {
                     theWines.push(drink);
-                } else if (drink.type == 'Sake') {
+                } else if (drink.type === 'Sake') {
                     theSakes.push(drink);
                 } else {
                     theBeers.push(drink);
