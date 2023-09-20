@@ -2,7 +2,7 @@ export const database = {
     broths: [
         { id: 3, name: 'Miso', description: 'Traditional Dashi stock mixed with softened miso paste', canBeVegetarian: true, spicy: false, canBeGlutenFree: false, },
         { id: 4, name: 'Sukiyaki', description: 'Sweet and savory soy-based broth', canBeVegetarian: true, spicy: false, canBeGlutenFree: false },
-        { id: 5, name: 'Tonkotsu', description: 'Traditional Japanese poke-bone based ramen broth with a savory flavor', canBeVegetarian: false, spicy: false, canBeGlutenFree: true },
+        { id: 5, name: 'Tonkotsu', description: 'Traditional Japanese pork-bone based ramen broth with a savory flavor', canBeVegetarian: false, spicy: false, canBeGlutenFree: true },
         { id: 6, name: 'Tom Yum', description: 'Thai hot and sour soup with added lemongrass and coconut milk. Medium spice level', canBeVegetarian: true, spicy: true, canBeGlutenFree: false },
         { id: 7, name: 'Tomato', description: 'Simple but delicious broth made with juicy ripened tomatos and chicken broth', canBeVegetarian: true, spicy: false, canBeGlutenFree: false },
         { id: 8, name: 'Curry', description: 'Traditional Japanese yellow curry. Fragrant and flavorful with a mild heat level', canBeVegetarian: true, spicy: true, canBeGlutenFree: false },
