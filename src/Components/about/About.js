@@ -6,8 +6,8 @@ export const About = () => {
         <div className="aboutParent">
             <div className="hoursOfOperation">
                 <h2>Hours of Operation:</h2>
-                <p>Mon-Thurs: 5pm-10pm</p>
-                <p>Fri: 5pm-10:30pm</p>
+                <p>Mon-Thurs: 12pm-10pm</p>
+                <p>Fri: 12pm-10:30pm</p>
                 <p>Sat-Sun: 12pm-10:30pm</p>
                 <p className="bold">...::: PLEASE NOTE :::...</p>
                 <p> WE STOP SEATING at <br />
