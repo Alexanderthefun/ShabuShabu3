@@ -19,7 +19,7 @@ export const About = () => {
             </div>
             <div className="reservations">
                 <h2>Reservations</h2>
-                <li>We do NOT take reservations. First come, first serve.
+                <li>We do NOT take reservations unless your party is 6 or more people. First come, first serve.
                 if your party is larger than 8 we kindly ask that you call at least 24 hours in advance to ensure we can accommodate your party.</li>
                 <li>Parties of 6+ include an 18% gratuity (before tax) on the check at the end of the meal. The option to add an additional tip will be provided.</li>
                 <li>Because of limited space, we cannot seat you until your entire party has arrived.
